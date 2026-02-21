@@ -79,7 +79,7 @@ Isso garante que o site sempre mantenha uma estrutura limpa, padronizada e livre
 
 ```bash
 # Clone o repositório
-git clone [https://github.com/daniel-dealmeida-dev/portfolio-pessoal.git](https://github.com/daniel-dealmeida-dev/portfolio-pessoal.git)
+git clone
 
 # Acesse a pasta do projeto
 cd portfolio-pessoal
