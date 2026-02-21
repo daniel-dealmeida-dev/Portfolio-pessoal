@@ -25,12 +25,12 @@ O objetivo é centralizar meus principais projetos e demonstrar minhas competên
 
 Em desktop:
 
-"<img width="1910" height="763" alt="Imagem-Portfolio_1" src="https://github.com/user-attachments/assets/8e482533-2753-4cc2-a891-a634e0bd49a2" />
+<img width="1910" height="763" alt="Imagem-Portfolio_1" src="https://github.com/user-attachments/assets/8e482533-2753-4cc2-a891-a634e0bd49a2" />
 
 
 Em mobile:
  
- "<img width="580" height="656" alt="previw-mobile" src="https://github.com/user-attachments/assets/f43a3482-1959-49f3-85f0-ede57edbe091" />
+ <img width="580" height="656" alt="previw-mobile" src="https://github.com/user-attachments/assets/f43a3482-1959-49f3-85f0-ede57edbe091" />
 
 
 
@@ -70,7 +70,6 @@ O repositório utiliza **GitHub Actions** para garantir a integridade do código
 **A cada push ou pull_request:**
 1.  O código é baixado no runner oficial do GitHub (Ubuntu).
 2.  O utilitário `tidy` valida a estrutura do HTML em busca de erros.
-3.  O status da verificação é refletido no **Badge** no topo deste README.
 
 Isso garante que o site sempre mantenha uma estrutura limpa, padronizada e livre de erros de fechamento de tags.
 
