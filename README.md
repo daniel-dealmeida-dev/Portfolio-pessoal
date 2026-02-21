@@ -1,4 +1,4 @@
-# 💻 Daniel de Almeida — Dev Portfolio
+#  Daniel de Almeida Dev Portfolio
 
 
 
