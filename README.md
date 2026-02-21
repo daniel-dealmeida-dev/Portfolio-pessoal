@@ -1,6 +1,6 @@
 # 💻 Daniel de Almeida — Dev Portfolio
 
-![CI - Portfolio Check](https://github.com/daniel-dealmeida-dev/portfolio-pessoal/actions/workflows/main.yml/badge.svg)
+![CI - Portfolio Check](https://github.com/daniel-dealmeida-dev/portfolio-pessoal/actions/workflows/main.yml/badge.svg?branch=main)
 
 Repositório oficial do meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades técnicas e facilitar contato para oportunidades como Desenvolvedor Full-Stack.
 
