@@ -6,7 +6,7 @@ Repositório oficial do meu portfólio pessoal, desenvolvido para apresentar meu
 
 🔗 **Acesse o site online:** [https://daniel-dealmeida-dev.github.io/Portfolio-pessoal/](https://daniel-dealmeida-dev.github.io/Portfolio-pessoal/)
 
----
+--
 
 ## 🚀 Sobre o Projeto
 
@@ -19,7 +19,7 @@ Este portfólio foi desenvolvido com foco em:
 
 O objetivo é centralizar meus principais projetos e demonstrar minhas competências técnicas de forma clara e profissional para recrutadores e parceiros.
 
----
+--
 
 ## 🖼️ Imagens do Projeto
 
@@ -35,8 +35,7 @@ Em mobile:
 
 
 
-
----
+--
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -51,7 +50,7 @@ Em mobile:
 ### **Automação**
 * **GitHub Actions:** Validação automática de estrutura HTML via `tidy` em cada commit.
 
----
+--
 
 ## ✨ Funcionalidades
 
@@ -61,7 +60,7 @@ Em mobile:
 * ✅ **Menu Responsivo** (estilo Hambúrguer) totalmente funcional para mobile.
 * ✅ Destaque especial para projetos envolvendo **Web3, Blockchain e Spring Boot**.
 
----
+--
 
 ## ⚙️ Integração Contínua (CI/CD)
 
@@ -73,7 +72,7 @@ O repositório utiliza **GitHub Actions** para garantir a integridade do código
 
 Isso garante que o site sempre mantenha uma estrutura limpa, padronizada e livre de erros de fechamento de tags.
 
----
+--
 
 ## 🧩 Como Executar Localmente
 
