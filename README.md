@@ -24,17 +24,17 @@ O objetivo é centralizar meus principais projetos e demonstrar minhas competên
 ## 🖼️ Imagens do Projeto
 
 Em desktop:
-<p align="center">
+ align="center">
   <img src="<img width="1910" height="763" alt="Imagem-Portfolio_1" src="https://github.com/user-attachments/assets/8e482533-2753-4cc2-a891-a634e0bd49a2" />
-" alt="Preview Desktop" width="45%">
+
 
 Em mobile:
  
   <img src="<img width="580" height="656" alt="previw-mobile" src="https://github.com/user-attachments/assets/f43a3482-1959-49f3-85f0-ede57edbe091" />
-" alt="Preview Mobile" width="20%">
-</p>
 
-> *Nota: Substitua os caminhos acima pelas imagens reais presentes na sua pasta `/assets` para exibir as capturas de tela do seu site.*
+
+
+
 
 ---
 
