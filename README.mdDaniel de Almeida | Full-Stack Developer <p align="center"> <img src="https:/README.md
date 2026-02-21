@@ -1,5 +1,6 @@
 Daniel de Almeida | Full-Stack Developer
 <p align="center">
+![CI - Portfolio Check](https://github.com/daniel-dealmeida-dev/Portifolio-pessoal/actions/workflows/ci.yml/badge.svg)
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
 <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
