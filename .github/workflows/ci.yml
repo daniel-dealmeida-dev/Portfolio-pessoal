@@ -14,7 +14,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install HTML Validator
+        run: sudo apt-get update && sudo apt-get install -y tidy
+
       - name: Validate HTML
-        uses: anishathalye/proof-action@v1
-        with:
-          directory: .
+        run: |
+          find . -name "*.html" -exec tidy -e -q {} +
