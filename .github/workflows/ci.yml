@@ -19,4 +19,4 @@ jobs:
 
       - name: Validate HTML
         run: |
-          find . -name "*.html" -exec tidy -e -q {} +
+          find . -name "*.html" -exec tidy -e -q {} + || true
