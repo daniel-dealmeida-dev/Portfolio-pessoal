@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfólio de Daniel de Almeida, desenvolvedor full-stack com foco em tecnologias modernas como React, Java Spring Boot e SQL.">
+    <title>Daniel de Almeida | Portfólio Full-Stack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="hero">
+    <nav class="navbar">
+        <h3 class="logo">DevPortfólio</h3>
+        <button id="hamburguer" aria-label="Abrir menu">☰</button>
+        <ul class="menu" id="menu">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contatos">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-container">
+        <p class="intro">Olá, Eu sou</p>
+        <h2>
+            Desenvolvedor <br>
+            <span class="destaque">Full-Stack</span>
+        </h2>
+        <p class="descricao">Criando experiências digitais com código</p>
+    </div>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+
+    <div class="sobre-conteudo"> 
+        <div class="sobre-texto">
+            <p>Prazer, me chamo Daniel de Almeida, tenho 18 anos e sou um desenvolvedor full-stack júnior apaixonado por criar soluções digitais inovadoras e eficientes.</p>
+
+            <p>Com experiência em técnologias modernas como React, Java Spring boot, SQL, UML, FIGMA e outros conhecimentos. Estou sempre em busca de me aperfeiçoar e estudar técnologias novas, mas gosto principalmente de me aprofundar ainda mais nos conhecimentos que já possuo.</p>
+        </div>
+
+        <div class="sobre-dados">
+            <div>
+                <strong>3+</strong>
+                <span>Projetos concluídos</span>
+            </div>
+
+            <div>
+                <strong>1+</strong>
+                <span>Ano(s) de experiência</span>
+            </div>
+
+            <div>
+                <strong>10+</strong>
+                <span>Habilidades técnicas</span>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <h2>Meus projetos</h2>
+
+    <div class="projetos-container">
+
+        <div class="projeto-card">
+            <img src="./assets/Votacao web3.png" alt="Tela de login do Voting App mostrando tela de login com MetaMask">
+            <h2>Voting App</h2>
+            <p>O Web3 Voting App é uma aplicação de votação online construída com React + TypeScript no frontend e Solidity no backend, integrando a blockchain via wagmi e MetaMask.</p>
+            <a href="https://github.com/daniel-dealmeida-dev/Web3-Voting.git"target="_blank" rel="noopener noreferrer">Ver projeto</a>
+        </div>
+
+        <!--  Adicionado class="projeto-card" -->
+        <div class="projeto-card">
+            <img src="./assets/swwager.jfif"alt="Documentação da API TaskFlow exibida no Swagger com endpoints de gerenciamento de tarefas">
+            <h2>TaskFlow</h2>
+            <p>Uma aplicação de gerenciamento de tarefas desenvolvida com Spring Boot, Spring Data JPA e H2 Database. Além de documentação via Swagger</p>
+            <a href="https://github.com/daniel-dealmeida-dev/taskflow.git"target="_blank" rel="noopener noreferrer">Ver projeto</a>
+        </div>
+
+        <!--  Adicionado class="projeto-card" -->
+        <div class="projeto-card">
+            <img src="./assets/PrintMYSQL.png" alt="Banco de dados MySQL mostrando tabela de usuários criada pela API Spring Boot">
+            <h2>API Spring boot</h2>
+            <p>First Spring App é uma API REST completa desenvolvida com Java e Spring Boot, que permite o CRUD de usuários com integração a MySQL, incluindo criação automática de tabelas via JPA/Hibernate.</p>
+            <a href="./assets/MySQL print2.png"target="_blank" rel="noopener noreferrer">Ver projeto</a>
+        </div>
+
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades técnicas</h2>
+    <p>
+        Utilizo uma variedade de tecnologias para desenvolver soluções completas, incluindo:
+        HTML, CSS, JavaScript, React, Java Spring Boot, SQL
+    </p>
+
+    <!--  lista DENTRO da section (estrutura correta) -->
+ <div class="habilidades-listas">
+
+    <!-- Frontend -->
+    <div class="habilidades-card">
+        <h3>HTML</h3>
+        <span>Intermediário</span>
+    </div>
+
+    <div class="habilidades-card">
+        <h3>CSS</h3>
+        <span>Intermediário</span>
+    </div>
+
+    <div class="habilidades-card">
+        <h3>JavaScript</h3>
+        <span>Intermediário</span>
+    </div>
+
+    <div class="habilidades-card">
+        <h3>React</h3>
+        <span>Intermediário</span>
+    </div>
+
+    <!-- Backend -->
+    <div class="habilidades-card">
+        <h3>Node.js</h3>
+        <span>Intermediário</span>
+    </div>
+
+    <div class="habilidades-card">
+        <h3>Java Spring Boot</h3>
+        <span>Intermediário</span>
+    </div>
+
+    <div class="habilidades-card">
+        <h3>SQL</h3>
+        <span>Intermediário</span>
+    </div>
+
+    <!-- Web3 / Blockchain -->
+    <div class="habilidades-card">
+        <h3>Solidity</h3>
+        <span>Intermediário</span>
+    </div>
+
+    <div class="habilidades-card">
+        <h3>MetaMask</h3>
+        <span>Intermediário</span>
+    </div>
+
+    <div class="habilidades-card">
+        <h3>Wagmi</h3>
+        <span>Intermediário</span>
+    </div>
+
+</div>
+  </section>
+  <section id="contatos">
+    <h2>Entre em contato</h2>
+    <p>Tem algum projeto em mente? Alguma vaga aberta? Estou sempre aberto a novas oportunidades e colaborações!</p>
+    <div class="contatos-lista">
+        <div class="contato-item">
+            <strong>Email:</strong>
+            <span>daniel.dealmeida.dev@gmail.com</span>
+        </div>
+
+         <div class="contato-item">
+            <strong>Telefone:</strong>
+            <span>(47)99700-9743</span>
+        </div>
+
+        <div class="contato-item">
+            <strong>Locais de trabalho presencial/Hibrido:</strong>
+            <span>Gaspar e Blumenau-SC</span>
+            <span></span>
+        </div>
+
+        <div class="contato-item">
+            <strong>Locais de trabalho remoto:</strong>
+            <span>Por todo o Brasil</span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="redes-sociais"> 
+        <a href="https://www.linkedin.com/in/daniel-de-almeida-dev/"target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/daniel-dealmeida-dev"target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+
+</section>
+
+<footer class="footer">
+    <p>© 2026 Daniel de Almeida</p>
+</footer>
+
+<script>
+    let button = document.getElementById("hamburguer");
+    const menu = document.getElementById("menu");
+
+    button.addEventListener("click", function() {
+        menu.classList.toggle("active");
+    })
+</script>
+
+</body>
+</html>
