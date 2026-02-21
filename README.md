@@ -1,79 +1,91 @@
-Daniel de Almeida — Dev Portfolio
+# 💻 Daniel de Almeida — Dev Portfolio
+
+![CI - Portfolio Check](https://github.com/daniel-dealmeida-dev/portfolio-pessoal/actions/workflows/main.yml/badge.svg)
 
 Repositório oficial do meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades técnicas e facilitar contato para oportunidades como Desenvolvedor Full-Stack.
 
-🔗 Acesse o site online:
-[https://daniel-dealmeida-dev.github.io/portfolio-pessoal/](https://daniel-dealmeida-dev.github.io/Portfolio-pessoal/)
+🔗 **Acesse o site online:** [https://daniel-dealmeida-dev.github.io/portfolio-pessoal/](https://daniel-dealmeida-dev.github.io/portfolio-pessoal/)
 
-🚀 Sobre o Projeto
+---
+
+## 🚀 Sobre o Projeto
 
 Este portfólio foi desenvolvido com foco em:
 
-Performance
+* **Performance:** Carregamento otimizado de recursos.
+* **Código limpo e semântico:** Facilidade de manutenção e leitura.
+* **Responsividade Mobile-First:** Experiência impecável em qualquer dispositivo.
+* **Estrutura escalável:** Pronto para a adição de novos projetos e tecnologias.
 
-Código limpo e semântico
+O objetivo é centralizar meus principais projetos e demonstrar minhas competências técnicas de forma clara e profissional para recrutadores e parceiros.
 
-Responsividade Mobile-First
+---
 
-Estrutura escalável
+## 🖼️ Imagens do Projeto
 
-O objetivo é centralizar meus principais projetos e demonstrar minhas competências técnicas de forma clara e profissional.
+Em desktop:
+<p align="center">
+  <img src="<img width="1910" height="763" alt="Imagem-Portfolio_1" src="https://github.com/user-attachments/assets/8e482533-2753-4cc2-a891-a634e0bd49a2" />
+" alt="Preview Desktop" width="45%">
 
-🛠️ Tecnologias Utilizadas
+Em mobile:
+ 
+  <img src="<img width="580" height="656" alt="previw-mobile" src="https://github.com/user-attachments/assets/f43a3482-1959-49f3-85f0-ede57edbe091" />
+" alt="Preview Mobile" width="20%">
+</p>
 
-Frontend
+> *Nota: Substitua os caminhos acima pelas imagens reais presentes na sua pasta `/assets` para exibir as capturas de tela do seu site.*
 
-HTML5 Semântico
+---
 
-CSS3 (Flexbox + Grid)
+## 🛠️ Tecnologias Utilizadas
 
-Responsividade Mobile-First
+### **Frontend**
+* **HTML5 Semântico:** Uso correto de tags para SEO e acessibilidade.
+* **CSS3 (Flexbox + Grid):** Estilização moderna e layouts flexíveis.
+* **Responsividade Mobile-First:** Design adaptado prioritariamente para telas menores.
 
-Interatividade
+### **Interatividade**
+* **JavaScript Vanilla:** Manipulação de DOM para funcionalidades como o Menu Mobile e interações dinâmicas.
 
-JavaScript Vanilla (Manipulação de DOM e Menu Mobile)
+### **Automação**
+* **GitHub Actions:** Validação automática de estrutura HTML via `tidy` em cada commit.
 
-Automação
+---
 
-GitHub Actions (Validação automática de HTML via tidy)
+## ✨ Funcionalidades
 
- Funcionalidades
+* ✅ Seção **"Sobre Mim"** com resumo profissional, idade e métricas de experiência.
+* ✅ **Galeria de Projetos** com links diretos para os repositórios no GitHub.
+* ✅ Seção de **Habilidades Técnicas** com níveis de proficiência detalhados.
+* ✅ **Menu Responsivo** (estilo Hambúrguer) totalmente funcional para mobile.
+* ✅ Destaque especial para projetos envolvendo **Web3, Blockchain e Spring Boot**.
 
- Seção "Sobre Mim" com histórico e métricas
+---
 
- Galeria de Projetos com links para repositórios
+## ⚙️ Integração Contínua (CI/CD)
 
- Seção de Habilidades com níveis de proficiência
+O repositório utiliza **GitHub Actions** para garantir a integridade do código fonte de forma automatizada.
 
- Menu Responsivo (Hambúrguer para Mobile)
+**A cada push ou pull_request:**
+1.  O código é baixado no runner oficial do GitHub (Ubuntu).
+2.  O utilitário `tidy` valida a estrutura do HTML em busca de erros.
+3.  O status da verificação é refletido no **Badge** no topo deste README.
 
- Destaque para projetos Web3 e Blockchain
+Isso garante que o site sempre mantenha uma estrutura limpa, padronizada e livre de erros de fechamento de tags.
 
-⚙️ Integração Contínua (CI/CD)
+---
 
-O repositório utiliza GitHub Actions para garantir a integridade do código.
+## 🧩 Como Executar Localmente
 
-A cada push ou pull_request:
-
-O código é baixado no runner do GitHub.
-
-O comando tidy valida a estrutura HTML.
-
-O badge no topo do README é atualizado indicando o status da build.
-
-Isso garante que o site sempre mantenha uma estrutura limpa e padronizada.
-
-🧩 Como Executar Localmente
+```bash
 # Clone o repositório
-git clone https://github.com/daniel-dealmeida-dev/portfolio-pessoal.git
+git clone [https://github.com/daniel-dealmeida-dev/portfolio-pessoal.git](https://github.com/daniel-dealmeida-dev/portfolio-pessoal.git)
 
-# Acesse a pasta
+# Acesse a pasta do projeto
 cd portfolio-pessoal
 
 # Abra no VS Code
 code .
 
-# Ou abra o index.html diretamente no navegador
-📬 Contato
-
-Caso queira entrar em contato para oportunidades ou networking, utilize os links disponíveis no próprio site.
+# Ou abra o arquivo index.html diretamente no seu navegador preferido.
