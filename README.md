@@ -24,7 +24,7 @@ O objetivo é centralizar meus principais projetos e demonstrar minhas competên
 ## 🖼️ Imagens do Projeto
 
 Em desktop:
- align="center">
+
   <img src="<img width="1910" height="763" alt="Imagem-Portfolio_1" src="https://github.com/user-attachments/assets/8e482533-2753-4cc2-a891-a634e0bd49a2" />
 
 
