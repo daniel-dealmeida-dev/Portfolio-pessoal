@@ -4,7 +4,7 @@
 
 Repositório oficial do meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades técnicas e facilitar contato para oportunidades como Desenvolvedor Full-Stack.
 
-🔗 **Acesse o site online:** [https://daniel-dealmeida-dev.github.io/portfolio-pessoal/](https://daniel-dealmeida-dev.github.io/portfolio-pessoal/)
+🔗 **Acesse o site online:** [https://daniel-dealmeida-dev.github.io/Portfolio-pessoal/](https://daniel-dealmeida-dev.github.io/Portfolio-pessoal/)
 
 ---
 
