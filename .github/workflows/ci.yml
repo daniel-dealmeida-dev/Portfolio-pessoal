@@ -1,0 +1,20 @@
+name: CI - Portfolio Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Validate HTML
+        uses: Cyb3r-Jak3/html5validator-action@v7
+        with:
+          root: .
