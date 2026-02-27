@@ -29,6 +29,7 @@ li{
     justify-content: space-between;
     align-items: center;
     padding : 20px 40px;
+    position: relative;
 }
 
 .menu{
@@ -361,6 +362,7 @@ li{
     .menu.active{
         display:flex;
     }
+
 
 
 
