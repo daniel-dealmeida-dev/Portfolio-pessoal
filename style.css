@@ -300,6 +300,12 @@ li{
     }
 }
 
+@media (max-width: 480px){
+    .redes-sociais{
+        flex-direction: column;
+    }
+}
+
 
 
 .redes-sociais a:hover{
@@ -330,10 +336,17 @@ li{
     color: #ffff
 }
 
-@media (max-width: 768px){
-    #hamburguer{
+@media (max-width: 768px) {
+    #hamburguer {
         display: block;
     }
+}
+
+@media (max-width: 480px) {
+    #hamburguer {
+        display: block;
+    }
+}
 
     .menu{
         position: absolute;
@@ -349,4 +362,5 @@ li{
         display:flex;
     }
 }
+
 
