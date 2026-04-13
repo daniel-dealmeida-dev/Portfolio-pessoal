@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com Daniel de Almeida">
+    <title>Contato | Daniel de Almeida</title>
+    <link rel="stylesheet" href="style-curriculo.css">
+</head>
+
+<body>
+
+<p style="text-align:center; background:#020617; padding:10px; color:#34d399;">
+Preencha o formulário abaixo corretamente para entrar em contato.
+</p>
+
+<p style="text-align:center; margin-top:10px;">
+<a href="index.html" style="color:#34d399;">&larr; Voltar para o portfólio</a>
+</p>
+
+<section id="contatos">
+    <h2>Entre em contato</h2>
+    <p>Tem algum projeto em mente? Alguma vaga aberta? Me envie uma mensagem!</p>
+
+    <h3>Formulário de Contato</h3>
+
+    <form class="form-contato">
+
+        <label for="nome">Nome *</label>
+        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+
+        <label for="email">E-mail *</label>
+        <input type="email" id="email" name="email" required placeholder="ex: seuemail@gmail.com">
+
+        <label for="assunto">Assunto</label>
+        <input type="text" id="assunto" name="assunto" placeholder="Ex: Proposta de trabalho">
+
+        <label for="pais">País</label>
+        <select id="pais" name="pais">
+            <option value="">Selecione</option>
+            <option value="BR">Brasil</option>
+            <option value="OUTRO">Outro</option>
+        </select>
+
+        <div id="estado-container">
+            <label for="estado">Estado</label>
+            <select id="estado" name="estado">
+                <option value="">Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </div>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..."></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2026 Daniel de Almeida. Todos os direitos reservados</p>
+</footer>
+
+<script>
+    const pais = document.getElementById("pais");
+    const estadoContainer = document.getElementById("estado-container");
+
+    estadoContainer.style.display = "none";
+
+    pais.addEventListener("change", function() {
+        if (pais.value === "BR") {
+            estadoContainer.style.display = "block";
+        } else {
+            estadoContainer.style.display = "none";
+        }
+    });
+</script>
+<script src="contato.js"></script>
+
+</body>
+</html>

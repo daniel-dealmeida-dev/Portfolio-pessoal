@@ -1,0 +1,149 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    background: #020617;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d1fae5;
+}
+
+a{
+    text-decoration: none;
+}
+
+#contatos{
+    min-height: 100vh;
+    text-align: center;
+    padding: 40px 20px;
+    background: #020617;
+}
+
+#contatos h2{
+    color: #34d399;
+    margin-bottom: 10px;
+}
+
+#contatos p{
+    color:#6ee7b7;
+    margin-bottom: 20px;
+}
+
+#contatos h3{
+    margin-top: 40px;
+    color: #34d399;
+}
+
+
+.form-contato{
+    max-width: 500px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-contato label{
+    text-align: left;
+    font-size: 0.9em;
+    color: #6ee7b7;
+}
+
+.form-contato input,
+.form-contato select,
+.form-contato textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #065f46;
+    background-color: #020617;
+    color: #d1fae5;
+    font-size: 0.9em;
+    outline: none;
+    transition: 0.2s;
+    box-sizing: border-box;
+}
+
+.form-contato input::placeholder,
+.form-contato textarea::placeholder{
+    color: #6ee7b7;
+    opacity: 0.6;
+}
+
+.form-contato input:focus,
+.form-contato select:focus,
+.form-contato textarea:focus{
+    border: 1px solid #34d399;
+    box-shadow: 0 0 0 1px #34d399;
+}
+
+.form-contato button{
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #34d399;
+    border: none;
+    border-radius: 10px;
+    color: #020617;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.form-contato button:hover{
+    background-color: #10b981;
+}
+
+.form-contato button:disabled{
+    cursor: wait;
+    opacity: 0.85;
+}
+
+.form-feedback{
+    min-height: 20px;
+    margin-top: 6px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.form-feedback.is-success{
+    color: #34d399;
+}
+
+.form-feedback.is-error{
+    color: #fca5a5;
+}
+
+.input-error{
+    border-color: #ef4444 !important;
+    box-shadow: 0 0 0 1px #ef4444 !important;
+}
+
+.footer{
+     height: 10vh;
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    color: #9ca3af;
+}
+
+@media (max-width: 768px){
+    #contatos{
+        padding: 32px 16px;
+    }
+
+    .form-contato{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    #contatos{
+        padding: 28px 14px;
+    }
+
+    .footer{
+        height: auto;
+    }
+}
