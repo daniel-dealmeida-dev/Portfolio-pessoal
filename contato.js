@@ -26,7 +26,6 @@
     const requiredFields = [nome, email, mensagem];
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-
     let lastSendTime = 0;
 
     function setFeedback(message, type) {
