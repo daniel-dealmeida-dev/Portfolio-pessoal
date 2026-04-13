@@ -26,7 +26,7 @@
     const requiredFields = [nome, email, mensagem];
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-    // 🔥 ADIÇÃO 1: anti-spam simples
+
     let lastSendTime = 0;
 
     function setFeedback(message, type) {
@@ -106,7 +106,6 @@
     form.addEventListener("submit", async function (event) {
         event.preventDefault();
 
-        // 🔥 ADIÇÃO 2: anti-spam tempo mínimo
         const now = Date.now();
         if (now - lastSendTime < 5000) {
             setFeedback("Espera alguns segundos antes de enviar novamente.", "error");
